@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Everlytics Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Fill Your Response and Submit the Form</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Select Your Source |</td>
+                    <td><input type="text" id="source" name="source" required></td>
+                </tr>
+                <tr>
+                    <td>Provide a name for pipeline |</td>
+                    <td><input type="text" id="pipeline" name="pipeline" placeholder="e.g., cust_shop_energy_gateway001"></td>
+                </tr>
+                <tr>
+                    <td>GCS project name |</td>
+                    <td><input type="text" id="projectName" name="projectName" placeholder="project-id"></td>
+                </tr>
+                <tr>
+                    <td>GCS bucket name |</td>
+                    <td><input type="text" id="bucketName" name="bucketName" placeholder="gs://your-bucket"></td>
+                </tr>
+                <tr>
+                    <td>Input Cloud Storage File(s) |</td>
+                    <td><input type="text" id="files" name="files" placeholder="Example: gs://your-bucket/your-files/01.csv"></td>
+                </tr>
+                <tr>
+                    <td>GCS credentials |</td>
+                    <td><input type="text" id="credentials" name="credentials"></td>
+                </tr>
+                <tr>
+                    <td>Run Every |</td>
+                    <td><input type="number" id="time" name="time" placeholder="(in minutes)"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="CREATE" name="createBtn" class="btn"></td>
+                    <td><input type="submit" value="CANCEL" name="cancelBtn" class="btn"></td>
+                </tr>
+            </table>
+            
+        </form>
+    </div>
+</body>
+</html>

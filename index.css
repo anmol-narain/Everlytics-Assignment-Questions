@@ -1,0 +1,38 @@
+.wrapper{
+    text-align: center;
+}
+form{
+    /* border: 2px solid green; */
+}
+table{
+    /* border: 2px solid red; */
+    margin-left: 400px;
+}
+table td{
+    font-size: 25px;
+    color: red;
+}
+
+table input{
+    margin: 7px;
+    width: 400px;
+    height: 1.7rem;
+    border-radius: 1px;
+    font-size: 18px;
+    color: darkblue;
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 2px;
+}
+
+.btn{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 0px;
+    border: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+

@@ -18,27 +18,27 @@
                 </tr>
                 <tr>
                     <td>Provide a name for pipeline |</td>
-                    <td><input type="text" id="pipeline" name="pipeline" placeholder="e.g., cust_shop_energy_gateway001"></td>
+                    <td><input type="text" id="pipeline" name="pipeline" placeholder="e.g., cust_shop_energy_gateway001" required></td>
                 </tr>
                 <tr>
                     <td>GCS project name |</td>
-                    <td><input type="text" id="projectName" name="projectName" placeholder="project-id"></td>
+                    <td><input type="text" id="projectName" name="projectName" placeholder="project-id" required></td>
                 </tr>
                 <tr>
                     <td>GCS bucket name |</td>
-                    <td><input type="text" id="bucketName" name="bucketName" placeholder="gs://your-bucket"></td>
+                    <td><input type="text" id="bucketName" name="bucketName" placeholder="gs://your-bucket" required></td>
                 </tr>
                 <tr>
                     <td>Input Cloud Storage File(s) |</td>
-                    <td><input type="text" id="files" name="files" placeholder="Example: gs://your-bucket/your-files/01.csv"></td>
+                    <td><input type="text" id="files" name="files" placeholder="Example: gs://your-bucket/your-files/01.csv" required></td>
                 </tr>
                 <tr>
                     <td>GCS credentials |</td>
-                    <td><input type="text" id="credentials" name="credentials"></td>
+                    <td><input type="text" id="credentials" name="credentials" required></td>
                 </tr>
                 <tr>
                     <td>Run Every |</td>
-                    <td><input type="number" id="time" name="time" placeholder="(in minutes)"></td>
+                    <td><input type="number" id="time" name="time" placeholder="(in minutes)" required></td>
                 </tr>
                 <tr>
                     <td><input type="submit" value="CREATE" name="createBtn" class="btn"></td>

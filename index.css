@@ -23,6 +23,7 @@ table input{
     margin: 15px;
     width: 400px;
     height: 1.8rem;
+    border: 3px solid #7fc7ff;
     border-radius: 1px;
     font-size: 18px;
     color: black;
@@ -36,7 +37,7 @@ table input{
     width: 150px;
     height: 50px;
     border-radius: 0px;
-    border: white;
+    border: 2px solid white;
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 2px;
